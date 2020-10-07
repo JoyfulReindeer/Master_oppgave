@@ -1,0 +1,136 @@
+% Do not modify these
+\documentclass[fleqn,10pt]{wlscirep}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{enumitem}
+\renewcommand{\theenumi}{\alph{enumi}}% -- Insert any custom LaTeX packages here --
+
+% \package{natbib} % <-- Required for the Chicago citation style
+% \package{apacite} % <-- Required for the APA citation style
+% If you decide to use one of the styles above, remember to change the \bibliographystyle{} at the bottom of the document too!
+
+\usepackage{listings} % <-- Required if you want to display program source code in your paper.
+
+
+% -- End of custom LaTeX packages --
+
+
+% Fill in your title
+\title{Research proposal: Artificial Intelligence in an Ambulance}
+
+% Do not modify the author tag below, just let it be blank
+\author{}
+
+% Fill in assignment abstract
+\begin{abstract}
+This paper is a research proposal to Integrate Artificial Intelligence in an ambulance. 
+\end{abstract}
+
+
+% Do not modify the following two lines
+\begin{document}
+\include{cover}
+
+
+% Insert data for the hand-in's cover page
+\makecoverpage{
+	master_of 		 = \par{Applied Computer Science and Human-Computer Interaction},  % Use either: Applied Computer Science | Human-Computer Interaction
+	assignment_title = \par{Research proposal: Artificial Intelligence in an Ambulance},  % Title of your assignment
+	course_code    	 = \par{MA240},  % Course code (ex. MA110)
+	course_name      = \par{Research proposal in Master Thesis},  % Course name (ex. Systems Development)
+	due_date		 = \par{25.september 2020},  % Due date
+	student_name     = \par{Howie and Marte},  % Your name (or names, if group – separate names with ; semicolon)
+	student_number   = \par{},  % Your student ID number (or numbers, if group – separate ID numbers with ; semicolon)
+	group_size		 = 1, % Number of group members (used for the declaration text)
+}
+\tableofcontents
+\twocolumn
+% Do not modify the following two lines
+\flushbottom
+\maketitle
+
+% --INTRODUCTION--
+\section{Introduction}
+ The healthcare industry has generated a large amount of data, journal keeping, requirements and compliance, and patient care\cite{Kilde3}. With recent Artificial Intelligence(AI), techniques have the opportunity to improve healthcare with recent progress in digitalizing data, machine learning, computing infrastructure, wireless sensors, even some AI application that was expanding into different areas were previously thought to be only province by human experts, but it does not mean it will be replaced by a machine\cite{Kilde4}. 
+ 
+Emergency medical services(EMS) are one of the most important parts of the healthcare system, also a vital part of public services, saving peoples lives and reducing the rate of mortality, allocating the resources when critical events occur (e.g vehicle crash). The events of ambulance services are divided into four steps\cite{Kilde1}: (1) incident detection and reporting, (2) call screening to determine the severity of the incident and its degree of urgency, (3)vehicle dispatching is critical to be at all-time located and to make ensure to coverage and quick response time and (4) help from paramedics. Generally the limitation of available resources of analytical tools in a deployed EMS system. Some of the problems for an ambulance is too reposition to areas with a lot of requests, paramedics can have human errors\cite{Kilde2}(e.g trauma, not enough experience, fatigue), and analytic tools can fail. 
+
+However, AI could assist the paramedics in Norway with monitoring, treatment, and decision making before arriving in a hospital environment. An AI application in an ambulance can help the EMS paramedics to diagnose the patient and support the end decision for the paramedics. With some help of IoT devices to continuously analyze vital health parameters of the patient like blood pressure, heart rate, body temperature in the ambulance at the same time feed the AI with more vital information, simultaneous the information will go to the hospital. By transmitting information about the patient before arriving at a hospital environment, it will help the hospital to prepare what is coming, instead of waiting for the patient to arrive to be diagnosed, time is a crucial factor when it comes to helping people in an emergency. 
+
+In this paper we will be discussing challenges and issues when it comes to integrating Artificial Intelligence in ambulances, and how it can be optimized and user friendly for the paramedics. 
+
+ This research proposal will focus on making the quality of life easier for a paramedics in the ambulance. Thhere will also be a focus on optimizing the communication between paramedics and emergency room.  Therefore this paper will follow up with these research questions: 
+ 
+\begin{enumerate}[label=(\alph*)]
+ \item Could an Artificial Intelligence increase the efficiency between ambulance and hospital? 
+ \item Could an artificial Intelligence assist in the ambulance when diagnosing emergency medical treatment is required? Ieg. Vital organ failure. 
+ \item  What is the most significant effect of Artificial intelligence in an Ambulance? 
+ \item What difficulty can it be when deploying a new system?
+\end{enumerate}
+ 
+\section{Literature review: Methodology}
+The search for Artificial Intelligence in Ambulances had a few results. However, mostly it was about having Artificial Intelligence in traffic lights and relocating ambulances to make it more efficient and how it might help the ambulances to be in the right places. However, little research has been done topic about Artificial Intelligence in Ambulances, and to be more specific, by having an Artificial intelligence application installed on Ambulances to help the paramedics and EMTs. To answer the research will be used as a systematic literature review of academic research on Artificial Intelligence in healthcare and paramedics/EMTs. The methodology of this literature review is: 
+ \begin{itemize}
+ \item Current research on Artificial Intelligence in healthcare and general ambulance responsibility.
+ \item Establishing literature in a related field, that may help to describe, understand, and explain the idea behind the topic. 
+ \item Identify the issues and challenges in both fields.
+ \item Guideline for multimodal user interface(MUI) in AI and healthcare.
+ \item Finally, current research Artificial Intelligence and ambulances from related areas combined to create a new concept, Artificial intelligence in Ambulance. 
+\end{itemize}
+
+The search process includes the current state of AI in healthcare, and what the future may bring. To understand the motivation and the advantages of AI in healthcare has been discussed in the medical literature \cite{Kilde5,Kilde6,Kilde7}, relevant aspect from medical investigators perspectives: (1) motivation of applying AI in healthcare, (2) what kind of data have to be analyzed in AI systems and (3) enabling AI systems to generate meaningful results and (4) what kind of assistant does paramedics need. The relevant aspect gives the research what kind of methods and data being required. Diagnostic medical equipment and tools are being used in hospitals for one sole purpose of diagnosing the patient's condition, based on the data it gathers an AI can help the Paramedics in an ambulance. 
+
+\section{Literature Review: Findings }
+
+As mentioned earlier, the relevant aspect from medical investigators perspectives will form the motivation behind the development of artificial Intelligence in an Ambulance and discussion.
+
+\subsection{Emergency Medical Services and Paramedics}
+Paramedics take care of sick or injured people in emergency settings. They respond to emergency calls, medical services, transporting patients to a hospital. Their work can be physically stressful, and even sometimes involving life or death situation. Some of the things a paramedic and EMTs do : 
+
+\begin{itemize}
+\item Respond and transport patients between institutions within the healthcare in Norway. 
+\item Determine severity of the situation and prioritise in situation in multiply are injured. 
+\item Check on the patients condition and determine a treatment. 
+\item Write a transcribe  on the patient and check the the necessary information on the patient. 
+\item Keep the patient still and safe in an ambulance when transporting to a hospital. 
+\item Report their observations and treatments to the emergency room. 
+\end{itemize}
+When taking a patient to the hospital it is often the paramedics monitor the patients vital and signs with additional care. Therefore, a focus group of paramedics and EMTs in Norway where we gathers peoples thoughts, ideas on a certain topic or product. In our case this will be using an AI system in ambulances. With a focus group of paramedics it allows the research to gather more useful information, even provide some insight into complicated topics where opinions or attitudes are often more diverse. 
+
+\subsection{Artificial intelligence in Healthcare}
+ AI can use algorithms to learn from a very large quantitive of healthcare data and gain insight to assist clinical practice. It can be equipped with learning and self-correction to improve its accuracy based on the feedback. An existing system created by IBM\cite{Kilde8}, called Watson. However, it was proven that IBM Watson could never be fully developed because those people that could teach it has more important matters; like saving life\cite{Kilde22}. An AI system to assist physicians or paramedics by providing up-to-date crucial medical information form earlier journals, textbooks, and clinical. Besides what an AI system can do is to reduce diagnostic and therapeutic errors, it can extract useful information from a very large patient population so it can learn from it. AI devices can mainly be classified into two categories. The first category is machine learning (ML) techniques that analyze structured data as imaging, genetics, and EP data. It cluster patients traits or uses its ability to predict a disease outcome\cite{Kilde9}. The second category is natural language processing (NLP), which uses the methods to extract information from unstructured data as medical journals or clinical notes to create an enrich structured medical data. NLP can also make the data to be understood by ML techniques \cite{Kilde10}
+
+\subsection{Healthcare data, collecting and devices.}
+
+Data mining can be defined as the process of finding unknown patterns and trends in a database and using that information to build a predictive model \cite{Kilde17}. It can also be defined as a process of a set of data to be explored and build models, to find new patterns \cite{Kilde18}. However, before an AI system can be used in the healthcare system, they need to be trained from earlier data from clinical activities(e.g screening, diagnosing treatment, earlier data, etc) it will be possible to for the AI to classified groups and subjects with similar associated between different subjects. In the diagnosis stage AI can analyze data from diagnosing images, genetic testing, and electrodiagnostic. Besides, physical examination notes and clinical laboratory are two other major data sources. 
+
+A Computed tomography(CT) scan allows a doctor to see inside of ur body, it has a combination of X-rays and a computer to create an image of the patients organs, bones, and other tissues. One of the benefits of a CT. One of the most dangerous injuries can be a stroke. Bio-Technology of national center posted a study if a stroke could be caused by an accident \cite{Kilde16}. If the injury is not treated properly, a traumatic brain injury can cause a long time problem with brain functionality. However, a brain hemorrhage is a stroke type, which can be diagnosed with CT and one of the most used tools to diagnosing head injuries. Combining it with an AI, it has the potential to detect the injury and predict the outcome for the future.
+
+Collecting data depends on what kind of information about the disease being diagnosed, in this research paper case is a stroke or a brain hemorrhage. As mentioned earlier, an AI system being fed with datasets about brain hemorrhage, the more cases and datasets the AI learns from, the more efficient and shows better results. One of the methods it can use is cross-sectional imaging and advanced computer vision techniques for the detection of critical findings. Arbabshirani\cite{Kilde15}, created a deep learning model capable to detect hemorrhage based on a very large clinical database of head CT studies, to create a real-life predictive model. One of the benefits of using deep learning has the leverage of automated classification tasks (e.g natural language processing, speech recognition, and object detection). Since the outcome of a CT scan is an image, it possible to performed an object detection with computer vision to detect abnormalities and classified
+
+
+As mentioned earlier, an AI system is being fed with a data set of cases. 
+For example, a person used to smoke and was not an active person in his previous life, he changed his lifestyle, and everything is recorded in the healthcare data. One day he had a stroke and ended up in an ambulance, and this ambulance has an AI system to help the paramedics and EMS to understand what is happening to this person. The system tells, this person used to smoke, was in very bad shape and this might lead up to a stroke now. Data collection should be relevant to the disease and wh
+
+\subsubsection{Disease focus}
+the research using AI in healthcare mainly concentrates around disease: cancer, cardiovascular disease, nervous system disease. Disease examples: 
+\begin{itemize}
+\item Cancer: IBM Watson is a reliable AI system for assisting the diagnosis of cancer \cite{Kilde11}. Esteva used AI to analyze images to identify skin cancer \cite{Kilde12} 
+\item Neurology: Bouton developed an AI system to help a patient to restore their movement control by using quadriplegia. 
+\item Cardiology: Dilsizian discussed the potential of an AI system to diagnose health disease through cardiac image \cite{Kilde13}. 
+\end{itemize}
+
+These three diseases are not completely unexpected. These diseases lead to death, and there are early disease may help to prevent the death of the patient. Furthermore a near diagnosis can potentially enhance the analysis processing of imaging, genetics, electrophysiological(EP), an electronic medical record ( EMR). Creators of artificial intelligence diagnostic tools MaxQ has partnered with Samsung. The cooperation leads to developing and deploying a computer vision software, to have an on-board CT scanner in ambulances\cite{Kilde14}. Another company called Forest Devices\cite{Kilde14}, is developing portable AI stroke identification devices to do the same thing as an electrocardiogram(EKG) for the brain. 
+
+
+\section{Outline of a research agenda for AI in ambulances}
+In this paper it has been identified the incoherent on the phenomenon of artificial intelligence and Ambulance. Based on this it has been proposed a new concept, AI in ambulances and what kind of challenges and issues it can raise. The framework of this concept can be split into two parts: The first part is an empirical data collection and data analysis, to identify the unidentical diseases or injuries. The work will draw to have a big enough database so the outcome of the AI will recommend and help the paramedics. Another benefit of this is proceeding to send information to the hospital and update them, since once the patient is in the ambulance he/she will get urgent care. The second part is to integrate AI into Ambulances and learn the paramedics how to use it. 
+
+This research proposal has a potential limitation. This study is based on interventional and prospective observational studies, they are therefor subjected to different issues. Data collection and data analysis can be a problem for the organization with infrastructure too small to train an AI. If data sharing is impossible, an organization with the use of AI will suffer because it will lack the ability to learn and adapt to a data set. What it means is an algorithm is being used and trained on a smaller data set from a more local population the outcome may not fit if the AI is deployed on a larger city. AI is already a part of everyday technology systems, and likely to have an increased impact in the future. But it also raises several ethical issues(e.g privacy) and others which have to do with specific technologies and application, bias being created by an AI and problems emerge from different methods, processing and data, It does not only play out in individual levels, but it might also concern in societies. With the power of AI-powered automation does not need human interaction, which also can take over tasks from humans. This can also lead to a lack of customer privacy, lack of transparency and implementation difficulties and economy 
+% --REFERENCES--
+\bibliography{references} % <-- This line will generate the bibliography list automatically
+\bibliographystyle{IEEEtran} % <-- Change this line if you want to use a different citation style
+
+% Do not modify this last lines
+\end{document}
