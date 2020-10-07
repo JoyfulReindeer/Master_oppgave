@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.10)  7 OCT 2020 11:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.10)  7 OCT 2020 11:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -982,7 +982,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 53.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 53.
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 75.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 76.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
@@ -991,59 +991,59 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 77.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 77.
+nput line 78.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 78.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 77.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 78.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `phv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
 
-LaTeX Warning: Reference `tab:example' on page 1 undefined on input line 96.
+LaTeX Warning: Reference `tab:example' on page 1 undefined on input line 97.
 
 <images/sample_image.png, id=53, 1025.8325pt x 475.7775pt>
 File: images/sample_image.png Graphic file (type png)
 <use images/sample_image.png>
-Package pdftex.def Info: images/sample_image.png  used on input line 118.
+Package pdftex.def Info: images/sample_image.png  used on input line 119.
 (pdftex.def)             Requested size: 250.24199pt x 116.05469pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 128.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 129.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 128.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 129.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.130 \end{itemize}
+l.131 \end{itemize}
                     [1] (./main.bbl) 
 AED: lastpage setting LastPage
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 137.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 138.
 [2 <./images/sample_image.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 137.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 138.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 138.
  (./main.aux (./cover.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 137.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 137.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 138.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 138.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 0A4DA44F32EBEE965FAFDD9B1579AEDA;391.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 137.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 138.
  ) 
 Here is how much of TeX's memory you used:
  34639 strings out of 492616
@@ -1061,7 +1061,7 @@ ive/2019/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2019
 dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw
 /times/utmri8a.pfb>
-Output written on main.pdf (3 pages, 1047972 bytes).
+Output written on main.pdf (3 pages, 1047976 bytes).
 PDF statistics:
  110 PDF objects out of 1000 (max. 8388607)
  94 compressed objects within 1 object stream
